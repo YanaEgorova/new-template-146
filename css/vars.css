@@ -1,0 +1,22 @@
+:root {
+  --main-bg-color: #fff;
+  --sub-bg-color: #000;
+  --main-text-color: #000;
+  --sub-text-color: #fff;
+  --inactive: #818181;
+  --success: #bee3be;
+  --link-color: blue;
+  --accent-color: #ff0000;
+
+
+  --first-brand-color: #A8A8A8;
+  --second-brand-color: rgb(44, 44, 44);
+  --third-brand-color: #dd1918;
+  --fourth-brand-color: #e7e7e7;
+
+
+  --main-font:  'Source Code Pro';
+  --title-font:  'Source Code Pro SemiBold';
+
+  font-size: 62.5%;
+}

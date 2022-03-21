@@ -1,0 +1,181 @@
+.products__wrapper { 
+}
+.products {
+    text-align: center;
+    padding: 13rem 0 10rem;
+    position: relative;
+    z-index: 2;
+}
+.hero-products {
+    padding: 0;
+}
+.products .container {
+    position: relative;
+}
+
+.sub-title__box {
+    position: relative;
+    margin-bottom: 3rem;
+    max-width: 140rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.products .sub-title {
+    font-size: 5rem;
+    margin-bottom: 4rem;
+}
+.success-message {
+    background-color: var(--success);
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    visibility: hidden;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.success-message > * {
+    font-family: inherit;
+    font-size: inherit;
+}
+.success-message--active {
+    opacity: 1;
+    visibility: visible;
+}
+.products .sub-title {
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+}
+
+.product__block {
+    padding: 2rem;
+    position: relative;
+    max-width: 70rem;
+    margin: 0 auto;
+    width: fit-content;
+    background-color: var(--main-bg-color);
+    border-radius: 1rem;
+}
+
+.product__img-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    width: 30rem;
+    height: 30rem;
+    background-color: var(--main-bg-color);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.product__img-box .img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    border-radius: 1rem;
+}
+.product__text-box {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product__name {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.product__price {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 3rem;
+}
+.product__btn-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product__block .btn {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  border-color: var(--second-brand-color);
+  padding: 1rem 4rem;
+}
+.btn--first {
+    margin-right: 2rem;
+}
+
+.swiper {
+    padding-bottom: 9rem;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    width: 8rem;
+    height: 8rem;
+    bottom: 0;
+    top: auto;
+    background-color: var(--main-text-color);
+    border-radius: 1rem;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    display: none;
+}
+.swiper-button-next {
+    right: 0;
+    background-image: url("data:image/svg+xml,%3Csvg width='24px' height='24px' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='directional' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='arrow-right' fill='%23fff'%3E%3Cpolygon id='Shape' points='9.0047481 4 17.0047481 12 9.0047481 20 7 18 13.0047481 12 7 6'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5rem;
+}
+.swiper-button-prev {
+    left: 0;
+    background-image: url("data:image/svg+xml,%3Csvg width='24px' height='24px' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='directional' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='arrow-left' fill='%23fff'%3E%3Cpolygon id='Shape' points='15 4 17 6 11 12 17 18 15 20 7 12'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5rem;
+}
+@media screen and (min-width: 1440px) { 
+    .product__img-box {
+        margin-bottom: 1rem;
+        width: 25rem;
+        height: 25rem;
+        padding: .5rem;
+    }
+    .product__name {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+    .product__price {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    .product__block {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        flex-grow: 1;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .product__block .btn:hover {
+        background-color: var(--second-brand-color);
+        color: var(--sub-text-color);
+    }
+}
+
+
+

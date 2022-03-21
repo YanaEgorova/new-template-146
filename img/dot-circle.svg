@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="625.45" height="625.45" viewBox="0 0 625.45 625.45">
+  <g id="dot-circle" transform="translate(-1008.275 -181.276)">
+    <path id="Path_1953" data-name="Path 1953" d="M291,0C451.715,0,582,130.285,582,291S451.715,582,291,582,0,451.715,0,291" transform="matrix(-0.998, -0.07, 0.07, -0.998, 1590.992, 804.591)" fill="none" stroke="#f46d0f" stroke-linecap="round" stroke-width="4" stroke-dasharray="0 32"/>
+    <g id="Group_4964" data-name="Group 4964" transform="translate(35 -21)">
+      <path id="Path_1952" data-name="Path 1952" d="M279,0h1.193C440.495.781,570,130.767,570,291c0,160.715-130.285,291-291,291" transform="translate(1004.699 223)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4" stroke-dasharray="0 32"/>
+    </g>
+  </g>
+</svg>

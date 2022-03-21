@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('../fonts/SourceCodePro-Light.eot');
+    src: url('../fonts/SourceCodePro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SourceCodePro-Light.woff2') format('woff2'),
+        url('../fonts/SourceCodePro-Light.woff') format('woff'),
+        url('../fonts/SourceCodePro-Light.ttf') format('truetype'),
+        url('../fonts/SourceCodePro-Light.svg#SourceCodePro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro SemiBold';
+    src: url('../fonts/SourceCodePro-SemiBold.eot');
+    src: url('../fonts/SourceCodePro-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SourceCodePro-SemiBold.woff2') format('woff2'),
+        url('../fonts/SourceCodePro-SemiBold.woff') format('woff'),
+        url('../fonts/SourceCodePro-SemiBold.ttf') format('truetype'),
+        url('../fonts/SourceCodePro-SemiBold.svg#SourceCodePro-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
