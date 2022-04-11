@@ -4,6 +4,16 @@
     margin-left: auto;
     margin-right: auto;
 }
+.disable-btn {
+    pointer-events: none;
+}
+.disable-btn svg {
+    opacity: 0.3;
+}
+.prod__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
 .prod .title {
     text-align: center;
     margin-bottom: 2rem;
