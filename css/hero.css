@@ -79,13 +79,7 @@
 .contacts__list {
     margin-bottom: 3rem;
 }
-.contacts .img {
-   min-height: 15rem;
-   object-fit: cover;
-   max-width: 70rem;
-   border: 1rem solid var(--third-brand-color);
-   margin-bottom: 5rem;
-}
+
 .contacts__item-link .text {
     position: relative;
 }
@@ -126,10 +120,7 @@
     .contacts__item-link .text:hover::after {
         width: 100%;
     }
-    .contacts .img {
-        min-height: 25rem;
-        border: 3rem solid var(--third-brand-color);
-    }
+  
 
 
     .policy__block {
